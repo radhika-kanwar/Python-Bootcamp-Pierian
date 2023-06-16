@@ -45,3 +45,16 @@ while True:
             print('WARM!')
         else:
             print('COLD!')
+
+    # an alternate way
+        """
+        if abs(num - guess) <= 10:
+            print('WARM!')
+        else:
+            print('COLD!')
+    else:
+        if abs(num - guess) < abs(num - guesses[-2]):
+            print('WARMER!')
+        else:
+            print('COLDER!') """
+            
